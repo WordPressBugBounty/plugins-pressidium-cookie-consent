@@ -283,6 +283,10 @@ return array(
     'Pressidium\\WP\\CookieConsent\\Options\\Options' => $baseDir . '/includes/Options/Options.php',
     'Pressidium\\WP\\CookieConsent\\Options\\WP_Options' => $baseDir . '/includes/Options/WP_Options.php',
     'Pressidium\\WP\\CookieConsent\\Plugin' => $baseDir . '/includes/Plugin.php',
+    'Pressidium\\WP\\CookieConsent\\Proxy\\Headers' => $baseDir . '/includes/Proxy/Headers.php',
+    'Pressidium\\WP\\CookieConsent\\Proxy\\Proxy' => $baseDir . '/includes/Proxy/Proxy.php',
+    'Pressidium\\WP\\CookieConsent\\Proxy\\Service_Provider' => $baseDir . '/includes/Proxy/Service_Provider.php',
+    'Pressidium\\WP\\CookieConsent\\Proxy\\Tag_Gateway_Proxy' => $baseDir . '/includes/Proxy/Tag_Gateway_Proxy.php',
     'Pressidium\\WP\\CookieConsent\\Sanitizer' => $baseDir . '/includes/Sanitizer.php',
     'Pressidium\\WP\\CookieConsent\\Settings' => $baseDir . '/includes/Settings.php',
     'Pressidium\\WP\\CookieConsent\\Shortcodes\\Cookies_Shortcode\\Shortcode' => $baseDir . '/includes/Shortcodes/Cookies_Shortcode/Shortcode.php',
@@ -292,6 +296,7 @@ return array(
     'Pressidium\\WP\\CookieConsent\\Shortcodes\\Shortcodes_Manager' => $baseDir . '/includes/Shortcodes/Shortcodes_Manager.php',
     'Pressidium\\WP\\CookieConsent\\Upgrader' => $baseDir . '/includes/Upgrader.php',
     'Pressidium\\WP\\CookieConsent\\Utils\\Color_Utils' => $baseDir . '/includes/Utils/Color_Utils.php',
+    'Pressidium\\WP\\CookieConsent\\Utils\\Date_Utils' => $baseDir . '/includes/Utils/Date_Utils.php',
     'Pressidium\\WP\\CookieConsent\\Utils\\String_Utils' => $baseDir . '/includes/Utils/String_Utils.php',
     'Pressidium\\WP\\CookieConsent\\Utils\\WP_Utils' => $baseDir . '/includes/Utils/WP_Utils.php',
 );

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'pressidium/pressidium-cookie-consent',
-        'pretty_version' => '1.8.0',
-        'version' => '1.8.0.0',
-        'reference' => 'f355c0095b710c9ab877cd5406c775fa665ef253',
+        'pretty_version' => '1.9.1',
+        'version' => '1.9.1.0',
+        'reference' => '09d5246f2eb96c9d854ea23ee09a66e0a7b90810',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'pressidium/pressidium-cookie-consent' => array(
-            'pretty_version' => '1.8.0',
-            'version' => '1.8.0.0',
-            'reference' => 'f355c0095b710c9ab877cd5406c775fa665ef253',
+            'pretty_version' => '1.9.1',
+            'version' => '1.9.1.0',
+            'reference' => '09d5246f2eb96c9d854ea23ee09a66e0a7b90810',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

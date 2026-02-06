@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit82a98fe846cbada84d31b78c14e9576d
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'P' =>
         array (
             'Pressidium\\WP\\CookieConsent\\' => 28,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Pressidium\\WP\\CookieConsent\\' => 
+        'Pressidium\\WP\\CookieConsent\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes',
         ),
@@ -298,6 +298,10 @@ class ComposerStaticInit82a98fe846cbada84d31b78c14e9576d
         'Pressidium\\WP\\CookieConsent\\Options\\Options' => __DIR__ . '/../..' . '/includes/Options/Options.php',
         'Pressidium\\WP\\CookieConsent\\Options\\WP_Options' => __DIR__ . '/../..' . '/includes/Options/WP_Options.php',
         'Pressidium\\WP\\CookieConsent\\Plugin' => __DIR__ . '/../..' . '/includes/Plugin.php',
+        'Pressidium\\WP\\CookieConsent\\Proxy\\Headers' => __DIR__ . '/../..' . '/includes/Proxy/Headers.php',
+        'Pressidium\\WP\\CookieConsent\\Proxy\\Proxy' => __DIR__ . '/../..' . '/includes/Proxy/Proxy.php',
+        'Pressidium\\WP\\CookieConsent\\Proxy\\Service_Provider' => __DIR__ . '/../..' . '/includes/Proxy/Service_Provider.php',
+        'Pressidium\\WP\\CookieConsent\\Proxy\\Tag_Gateway_Proxy' => __DIR__ . '/../..' . '/includes/Proxy/Tag_Gateway_Proxy.php',
         'Pressidium\\WP\\CookieConsent\\Sanitizer' => __DIR__ . '/../..' . '/includes/Sanitizer.php',
         'Pressidium\\WP\\CookieConsent\\Settings' => __DIR__ . '/../..' . '/includes/Settings.php',
         'Pressidium\\WP\\CookieConsent\\Shortcodes\\Cookies_Shortcode\\Shortcode' => __DIR__ . '/../..' . '/includes/Shortcodes/Cookies_Shortcode/Shortcode.php',
@@ -307,6 +311,7 @@ class ComposerStaticInit82a98fe846cbada84d31b78c14e9576d
         'Pressidium\\WP\\CookieConsent\\Shortcodes\\Shortcodes_Manager' => __DIR__ . '/../..' . '/includes/Shortcodes/Shortcodes_Manager.php',
         'Pressidium\\WP\\CookieConsent\\Upgrader' => __DIR__ . '/../..' . '/includes/Upgrader.php',
         'Pressidium\\WP\\CookieConsent\\Utils\\Color_Utils' => __DIR__ . '/../..' . '/includes/Utils/Color_Utils.php',
+        'Pressidium\\WP\\CookieConsent\\Utils\\Date_Utils' => __DIR__ . '/../..' . '/includes/Utils/Date_Utils.php',
         'Pressidium\\WP\\CookieConsent\\Utils\\String_Utils' => __DIR__ . '/../..' . '/includes/Utils/String_Utils.php',
         'Pressidium\\WP\\CookieConsent\\Utils\\WP_Utils' => __DIR__ . '/../..' . '/includes/Utils/WP_Utils.php',
     );
