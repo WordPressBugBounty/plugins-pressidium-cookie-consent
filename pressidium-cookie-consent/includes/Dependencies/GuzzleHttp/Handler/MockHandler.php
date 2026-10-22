@@ -7,7 +7,6 @@ use Pressidium\WP\CookieConsent\Dependencies\GuzzleHttp\HandlerStack;
 use Pressidium\WP\CookieConsent\Dependencies\GuzzleHttp\Promise as P;
 use Pressidium\WP\CookieConsent\Dependencies\GuzzleHttp\Promise\PromiseInterface;
 use Pressidium\WP\CookieConsent\Dependencies\GuzzleHttp\TransferStats;
-use Pressidium\WP\CookieConsent\Dependencies\GuzzleHttp\Utils;
 use Pressidium\WP\CookieConsent\Dependencies\Psr\Http\Message\RequestInterface;
 use Pressidium\WP\CookieConsent\Dependencies\Psr\Http\Message\ResponseInterface;
 use Pressidium\WP\CookieConsent\Dependencies\Psr\Http\Message\StreamInterface;
@@ -84,7 +83,7 @@ class MockHandler implements \Countable
         }
 
         if (isset($options['delay']) && \is_numeric($options['delay'])) {
-            \usleep((int) $options['delay'] * 1000);
+            \usleep((int) ($options['delay'] * 1000));
         }
 
         $this->lastRequest = $request;
@@ -160,7 +159,7 @@ class MockHandler implements \Countable
             ) {
                 $this->queue[] = $value;
             } else {
-                throw new \TypeError('Expected a Response, Promise, Throwable or callable. Found '.Utils::describeType($value));
+                throw new \TypeError('Expected a Response, Promise, Throwable or callable. Found '.\get_debug_type($value));
             }
         }
     }
